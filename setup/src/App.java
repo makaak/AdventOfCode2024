@@ -25,13 +25,13 @@ public class App {
                         "\r\n" + //
                         "public class solution {\r\n" + //
                         "    public static void main(String[] args) throws Exception {\r\n" + //
-                        "        File example = new File(\"example.txt\");\r\n" + //
-                        "        File input = new File(\"input\");\r\n" + //
+                        "        File example = new File(\"day" + i + "/puzzle" + j + "/example.txt\");\r\n" + //
+                        "        File input = new File(\"day" + i + "/puzzle" + j + "/input.txt\");\r\n" + //
                         "        BufferedReader exReader = new BufferedReader(new FileReader(example));\r\n" + //
                         "        BufferedReader inReader = new BufferedReader(new FileReader(input));\r\n" + //
                         "    }\r\n" + //
                         "}");
-                        fw.close();
+                fw.close();
             }
         }
     }
