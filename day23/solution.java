@@ -10,5 +10,8 @@ public class solution {
         File input = new File("day23/input.txt");
         BufferedReader exReader = new BufferedReader(new FileReader(example));
         BufferedReader inReader = new BufferedReader(new FileReader(input));
-        String line;        while((line = exReader.readLine()) != null){    	 }    }
+        String line;
+        while((line = exReader.readLine()) != null){
+    	 }
+    }
 }
