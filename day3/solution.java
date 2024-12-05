@@ -13,8 +13,6 @@ public class solution {
         BufferedReader exReader = new BufferedReader(new FileReader(example));
         BufferedReader inReader = new BufferedReader(new FileReader(input));
         Pattern mulInstruction = Pattern.compile("mul\\(\\d{1,3},\\d{1,3}\\)");
-        Pattern doInstruction = Pattern.compile("do\\(\\)");
-        Pattern dontInstruction = Pattern.compile("don't\\(\\)");
         Pattern digits = Pattern.compile("\\d{1,3}");
         Matcher matcherMul, matcherMulDoDont, digitsMatcher;
         String line, match;

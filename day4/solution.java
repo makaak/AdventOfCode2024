@@ -11,7 +11,8 @@ public class solution {
         BufferedReader exReader = new BufferedReader(new FileReader(example));
         BufferedReader inReader = new BufferedReader(new FileReader(input));
         String line;
-        while((line = exReader.readLine()) != null){
-    	 }
+        while ((line = exReader.readLine()) != null) {
+
+        }
     }
 }
